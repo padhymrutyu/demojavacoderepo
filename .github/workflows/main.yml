@@ -1,0 +1,12 @@
+name: Java CI with Maven
+on:
+ push:
+  branches: [main]
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v6
+    - name: Build Java package
+      run: mvn clean install -f jenkinsjavacoderepo/Javarepo1/pom.xml
