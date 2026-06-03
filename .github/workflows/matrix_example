@@ -1,7 +1,8 @@
 name: Multi-Job matrix_example
 
 on:
-  workflow_dispatch:
+  push:
+    branch: [main]
 
 jobs:
   # 1️⃣ Build Job
