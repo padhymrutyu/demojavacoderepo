@@ -1,4 +1,4 @@
-name: Multi-Job depend Job demo
+name: Multi-Job matrix_example
 
 on:
   workflow_dispatch:
