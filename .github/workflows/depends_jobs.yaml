@@ -1,4 +1,4 @@
-name: Multi-Job Java CI Demo
+name: Multi-Job depend Job demo
 
 on:
   workflow_dispatch:
