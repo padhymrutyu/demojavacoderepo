@@ -59,4 +59,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pretend Deploy
-        run: echo "🚀 Deployment step would go here!!"
+        run: echo "🚀 Deployment step would go here!"
